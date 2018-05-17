@@ -1,0 +1,135 @@
+:root{
+    --maincolor: rgb(215,150,140);
+}
+
+body{
+    background: WHITE;
+    font-size: 100%;
+    margin: 0px;
+    font-family:sans-serif;
+}
+
+header{
+    background: var(--maincolor);
+    font-size: 5vw;
+    color: white;
+    margin: 0px; 
+    padding: 0.5em 0px 10px 0px;
+    text-align: center;
+}
+
+a{
+    color: var(--maincolor);
+    
+}
+
+p, h1{
+    margin: 20px 10%;
+}
+
+header, h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h1{
+    color:lightgray;
+}
+
+p{  
+    margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	float: center;
+	font-size: 1.15em;
+	font-family: "Calibri";
+}
+
+img{
+	display: block;
+	margin: auto;
+    width:80%;
+}
+
+.row:after {
+	clear: both;
+	content: " "; /* adds a space after the things */
+	display: table;
+
+}
+
+div.row{
+    margin: 0px 10%;
+}
+
+div.col{
+	float: left; /* Makes the columns line up horizontally on the left*/
+	margin: 0.5%; /* Distance around each box? Or betweem? */
+	width: 49%   
+}
+
+div.col img{
+        float: center;
+        width: 100%;
+    }
+
+@viewport{
+    width: device-width;
+    zoom: 1.0;
+}
+
+/* ------------------------------------------ FOR MOBILE --------- */
+
+@media screen and (max-width:450px){
+    header{
+        font-size: 9vw;
+    }
+    
+    p{
+        width: 90%;
+    }
+    
+    img{
+        width:90%
+    }
+    
+    
+    div.row{
+        margin: 0px 5%;
+    }
+    
+    div.col{
+        float: center;
+        margin: 3px 0px;
+        width: 100%;
+    }
+    
+}
+
+/* --------------------------------------- FOR FULL SCREEN ------- */
+@media screen and (min-width:1000px){
+    header{
+        font-size: 60px;
+    }
+    
+    p{
+        width: 700px;
+    }
+    
+    img{
+        width: 700px;
+    }
+    div.col{
+        float: left; /* Makes the columns line up horizontally on the left*/
+        margin: 10px; /* Distance around each box? Or betweem? */
+        width: 335px;   
+    }
+    div.row{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 710px;
+}
+    }
+    
+}
