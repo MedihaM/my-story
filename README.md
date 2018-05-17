@@ -1,2 +1,2 @@
-# my-story
-A website outlining my programming experience
+# portfolio
+A website outlining my programming journey and experience.
