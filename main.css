@@ -34,6 +34,7 @@ header, h1{
 
 h1{
     color:lightgray;
+    padding: 15px 0px 0px 0px;
 }
 
 p{  
@@ -102,6 +103,10 @@ div.col img{
         float: center;
         margin: 3px 0px;
         width: 100%;
+    }
+    
+    footer{
+	   clear:both; /* Clears left and right floats */
     }
     
 }
